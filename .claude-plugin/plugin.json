@@ -1,0 +1,22 @@
+{
+  "name": "ylsd",
+  "displayName": "ylsd-skill",
+  "description": "外贸获客技能包完整入口。包含 13 个技能、1 个入口和 1 个更新入口。",
+  "skills": [
+    "./skills/ylsd",
+    "./skills/ylsd-update",
+    "./skills/ylsd-plan",
+    "./skills/ylsd-target",
+    "./skills/ylsd-check",
+    "./skills/ylsd-prompt",
+    "./skills/ylsd-write",
+    "./skills/ylsd-similar",
+    "./skills/ylsd-site",
+    "./skills/ylsd-ads",
+    "./skills/ylsd-recap",
+    "./skills/ylsd-reply",
+    "./skills/ylsd-intel",
+    "./skills/ylsd-mailbox",
+    "./skills/ylsd-keywords"
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "ylsd-keywords（产品词和搜索词）"
+  short_description: "给产品中文名出英文名、买家搜的词、阿里标题；粘搜索词逐条判对不对"
+  default_prompt: "使用 $ylsd-keywords，给我的产品出英文名和买家搜的词。"

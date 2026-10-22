@@ -1,0 +1,4 @@
+interface:
+  display_name: "ylsd-reply（回客户的信）"
+  short_description: "粘一封客户来信，判是哪种，出回信草稿、要问的问题和下一步"
+  default_prompt: "使用 $ylsd-reply，帮我回这封客户来信。"

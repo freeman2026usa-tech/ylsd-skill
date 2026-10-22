@@ -1,0 +1,4 @@
+interface:
+  display_name: "ylsd-ads（投流策略）"
+  short_description: "按官网、预算、国家、主推产品出 Google 投流的开局方案，八块"
+  default_prompt: "使用 $ylsd-ads，按我的官网和预算出一份 Google 投流开局方案。"

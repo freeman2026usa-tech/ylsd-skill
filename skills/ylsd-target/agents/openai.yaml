@@ -1,0 +1,4 @@
+interface:
+  display_name: "ylsd-target（获客方向）"
+  short_description: "读官网、问三个问题，告诉你重点开发哪类客户、哪几个地区，每条带依据"
+  default_prompt: "使用 $ylsd-target，告诉我该重点开发哪类客户、哪几个地区。"

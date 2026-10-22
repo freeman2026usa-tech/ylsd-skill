@@ -1,0 +1,4 @@
+interface:
+  display_name: "ylsd-site（官网投流体检）"
+  short_description: "查官网投流前的配件齐不齐：追踪码、询盘入口、落地页、语言版本"
+  default_prompt: "使用 $ylsd-site，给我的官网做一次投流前体检。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "ylsd-write（写开发信）"
+  short_description: "给我方事实和一家买家的信息，直接写一封英文开发信，写明用了哪些事实"
+  default_prompt: "使用 $ylsd-write，按我的官网和这家买家写一封开发信。"

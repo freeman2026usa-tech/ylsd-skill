@@ -1,0 +1,4 @@
+interface:
+  display_name: "ylsd-mailbox（发信前邮箱检查）"
+  short_description: "查发信域名的 SPF、DKIM、DMARC 有没有，出新邮箱爬坡表，退信多了怎么查"
+  default_prompt: "使用 $ylsd-mailbox，帮我查发信用的域名和邮箱。"

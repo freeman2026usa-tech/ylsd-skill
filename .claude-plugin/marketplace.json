@@ -1,0 +1,213 @@
+{
+  "name": "ylsd-skill",
+  "owner": {
+    "name": "<用户名>"
+  },
+  "metadata": {
+    "description": "外贸获客技能包",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "ylsd",
+      "description": "ylsd-skill 完整入口。读你给的东西和你说的话，转给对应技能；输入三位数编号时执行对应的指令。用户说要找客户、要方案、写信、查官网、查邮箱，但没说用哪个技能时用；只扔一个网址、只粘一封信，也用它。",
+      "source": "./",
+      "strict": true,
+      "version": "0.1.0",
+      "category": "foreign-trade",
+      "keywords": [
+        "foreign-trade",
+        "lead-generation",
+        "router",
+        "chinese"
+      ]
+    },
+    {
+      "name": "ylsd-update",
+      "description": "更新 ylsd-skill 到最新版。用户说“更新 ylsd”“升级”“检查版本”，或在更新提醒后回“1”时用。只更新这一个包，不动别的技能，不动用户自己改过的文件。",
+      "source": "./skills/ylsd-update",
+      "strict": true,
+      "version": "0.1.0",
+      "category": "workflow-infrastructure",
+      "keywords": [
+        "ylsd-skill",
+        "update",
+        "chinese"
+      ]
+    },
+    {
+      "name": "ylsd-plan",
+      "description": "获客方案。读官网，从问题库挑几个只有你知道的问题，按固定八章写一份拿到就能照着做的获客方案。不给买家名单、不发信。用户说“出个获客方案”“怎么开发客户”“外贸获客从哪开始”“做个开发计划”时用。",
+      "source": "./skills/ylsd-plan",
+      "strict": true,
+      "version": "0.1.0",
+      "category": "foreign-trade",
+      "keywords": [
+        "foreign-trade",
+        "market-plan",
+        "chinese"
+      ]
+    },
+    {
+      "name": "ylsd-target",
+      "description": "获客方向。读官网，问三个问题，告诉你重点开发哪类客户、哪几个地区、先不打哪些，每条带依据。用户说“先打哪个国家”“该找哪类客户”“重点开发哪个市场”时用。",
+      "source": "./skills/ylsd-target",
+      "strict": true,
+      "version": "0.1.0",
+      "category": "foreign-trade",
+      "keywords": [
+        "foreign-trade",
+        "target-market",
+        "chinese"
+      ]
+    },
+    {
+      "name": "ylsd-check",
+      "description": "开发信体检。粘一封写好的英文开发信，指出缺什么事实、哪句是模板腔、主题行能不能让人点开、怎么改。只改你这封，不代写。用户粘一封自己写的开发信，说“帮我看看”“为什么没人回”“这封信行不行”时用。",
+      "source": "./skills/ylsd-check",
+      "strict": true,
+      "version": "0.1.0",
+      "category": "foreign-trade",
+      "keywords": [
+        "foreign-trade",
+        "cold-email",
+        "chinese"
+      ]
+    },
+    {
+      "name": "ylsd-prompt",
+      "description": "写信提示词。按你的公司事实和要打的买家类型，生成一条给 AI 批量发信软件用的写信提示词：我方事实写死，买家信息留成变量。不找买家、不发信。用户说“给我一条写信提示词”“批量发信软件用的提示词”“让软件自动写开发信”时用。",
+      "source": "./skills/ylsd-prompt",
+      "strict": true,
+      "version": "0.1.0",
+      "category": "foreign-trade",
+      "keywords": [
+        "foreign-trade",
+        "cold-email",
+        "prompt",
+        "chinese"
+      ]
+    },
+    {
+      "name": "ylsd-similar",
+      "description": "找相似买家。给一家你老客户或想要的客户的官网，读出它是谁、哪几个特点能用来找同类，再给 3 家像它的样例让你确认方向；给一家同行的官网，看它在给谁供货、你能正面撞哪类、该避开哪类，再按那类给 3 家样例。不给联系人、不给邮箱、不排序、不出名单。用户说“找像这家的客户”“这种客户还有哪些”“看看同行在给谁供货”时用。",
+      "source": "./skills/ylsd-similar",
+      "strict": true,
+      "version": "0.1.0",
+      "category": "foreign-trade",
+      "keywords": [
+        "foreign-trade",
+        "lookalike",
+        "competitor",
+        "chinese"
+      ]
+    },
+    {
+      "name": "ylsd-site",
+      "description": "官网投流体检。给一个官网，查投流前要的配件齐不齐：追踪码、询盘入口、落地页、Google 收不收你的广告、目标国家的语言版本。每项写有、没有、没查到，末尾列投流前必须补的。给我的站加同行站，出逐项并排的对比表和先补哪三样。不改网站、不做 SEO 全面体检。用户说“官网能不能投广告”“投流前检查一下网站”“追踪码装没装”“跟同行的站比一比”时用。",
+      "source": "./skills/ylsd-site",
+      "strict": true,
+      "version": "0.1.0",
+      "category": "foreign-trade",
+      "keywords": [
+        "foreign-trade",
+        "google-ads",
+        "website-audit",
+        "chinese"
+      ]
+    },
+    {
+      "name": "ylsd-ads",
+      "description": "投流策略。给官网加一个月预算、目标国家、主推产品，出一份 Google 投流的开局方案：账户怎么分、词怎么分组、落地页对应、预算怎么切、第一个月看什么数、什么时候停。不代开户、不代操作、不承诺点击价和询盘数。用户说“怎么投 Google 广告”“预算怎么分”“给个投流方案”时用。",
+      "source": "./skills/ylsd-ads",
+      "strict": true,
+      "version": "0.1.0",
+      "category": "foreign-trade",
+      "keywords": [
+        "foreign-trade",
+        "google-ads",
+        "strategy",
+        "chinese"
+      ]
+    },
+    {
+      "name": "ylsd-recap",
+      "description": "对话总结。把这次对话里的内容整理成一份总结：一句话结论在前，再分定了什么、没定什么、下一步、用了什么四块，四块不重不漏，先短版后长版。发给谁就按谁的口吻写。不加对话里没有的判断和数字。用户说“总结一下”“整理一下这次聊的”“发给同事看看”“发给客户看看”时用。",
+      "source": "./skills/ylsd-recap",
+      "strict": true,
+      "version": "0.1.0",
+      "category": "foreign-trade",
+      "keywords": [
+        "foreign-trade",
+        "summary",
+        "chinese"
+      ]
+    },
+    {
+      "name": "ylsd-reply",
+      "description": "回客户的信。粘一封客户来信，先判它是哪种（新询盘、对开发信的回复、说贵了、要样品、婉拒、自动回复或退订），再按种类出回信草稿、回信前要问对方的问题、下一步。新询盘先判真假和质量。不编数字不编交期，不替你承诺，不发信。用户粘一封客户来的信，说“怎么回”“客户说贵了”“来了条询盘”时用。",
+      "source": "./skills/ylsd-reply",
+      "strict": true,
+      "version": "0.1.0",
+      "category": "foreign-trade",
+      "keywords": [
+        "foreign-trade",
+        "inquiry",
+        "reply",
+        "chinese"
+      ]
+    },
+    {
+      "name": "ylsd-intel",
+      "description": "客户背调。给一家买家的官网，或公司名加国家，查这家是谁、真不真、买不买得起、谁管采购、有没有可疑的地方，末尾一句值不值得发信，加信里能引的两个事实。只列职位不给姓名邮箱电话，不打分，不查付费数据库。用户说“这家靠不靠谱”“是不是骗子”“背调一下”“值不值得发信”时用。",
+      "source": "./skills/ylsd-intel",
+      "strict": true,
+      "version": "0.1.0",
+      "category": "foreign-trade",
+      "keywords": [
+        "foreign-trade",
+        "buyer-check",
+        "chinese"
+      ]
+    },
+    {
+      "name": "ylsd-mailbox",
+      "description": "发信前邮箱检查。给发信用的域名，查有没有设谁能发信的记录（SPF、DKIM、DMARC 三样）；再给邮箱用了多久、一天发几封，出新邮箱爬坡表；退信多了，给按顺序查的三步。不改 DNS、不配邮箱、不代发。用户说“邮箱能不能发开发信”“一天能发多少”“退信很多”“老进垃圾箱”时用。",
+      "source": "./skills/ylsd-mailbox",
+      "strict": true,
+      "version": "0.1.0",
+      "category": "foreign-trade",
+      "keywords": [
+        "foreign-trade",
+        "email-deliverability",
+        "chinese"
+      ]
+    },
+    {
+      "name": "ylsd-keywords",
+      "description": "产品词和搜索词。给产品的中文名，出地道的英文产品名、同义词、买家搜的词、下游行业词、阿里国际站标题组合、HS 编码候选；粘你现在在 Google 搜买家用的词，逐条判搜出来的是买家还是同行、终端还是中间商，该换成什么。用户说“这个产品英文叫什么”“买家会搜什么词”“搜索词对不对”“阿里标题怎么写”时用。",
+      "source": "./skills/ylsd-keywords",
+      "strict": true,
+      "version": "0.1.0",
+      "category": "foreign-trade",
+      "keywords": [
+        "foreign-trade",
+        "keywords",
+        "chinese"
+      ]
+    },
+    {
+      "name": "ylsd-write",
+      "description": "写开发信。给你的官网或公司事实，加一家买家的官网或信息，直接写一封英文开发信：三个主题行备选、正文、署名，并写明用了哪些事实。一次一家买家。不找买家、不发信。用户说“给这家写一封开发信”“帮我写封信给某某公司”时用。",
+      "source": "./skills/ylsd-write",
+      "strict": true,
+      "version": "0.1.0",
+      "category": "foreign-trade",
+      "keywords": [
+        "foreign-trade",
+        "cold-email",
+        "chinese"
+      ]
+    }
+  ]
+}

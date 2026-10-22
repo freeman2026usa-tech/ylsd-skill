@@ -1,0 +1,4 @@
+interface:
+  display_name: "ylsd-intel（客户背调）"
+  short_description: "查一家买家真不真、买不买得起、谁管采购、有没有可疑的地方，值不值得发信"
+  default_prompt: "使用 $ylsd-intel，帮我背调这家买家。"

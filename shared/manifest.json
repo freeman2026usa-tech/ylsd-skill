@@ -1,0 +1,86 @@
+{
+  "marks.md": [
+    "ylsd-plan",
+    "ylsd-target",
+    "ylsd-check",
+    "ylsd-prompt",
+    "ylsd-write",
+    "ylsd-similar",
+    "ylsd-site",
+    "ylsd-ads",
+    "ylsd-recap",
+    "ylsd-reply",
+    "ylsd-intel",
+    "ylsd-mailbox",
+    "ylsd-keywords"
+  ],
+  "voice.md": [
+    "ylsd",
+    "ylsd-plan",
+    "ylsd-target",
+    "ylsd-check",
+    "ylsd-prompt",
+    "ylsd-write",
+    "ylsd-similar",
+    "ylsd-site",
+    "ylsd-ads",
+    "ylsd-recap",
+    "ylsd-reply",
+    "ylsd-intel",
+    "ylsd-mailbox",
+    "ylsd-keywords"
+  ],
+  "redlines.md": [
+    "ylsd-plan",
+    "ylsd-target",
+    "ylsd-check",
+    "ylsd-prompt",
+    "ylsd-write",
+    "ylsd-similar",
+    "ylsd-ads",
+    "ylsd-reply"
+  ],
+  "principles.md": [
+    "ylsd-plan",
+    "ylsd-target",
+    "ylsd-similar",
+    "ylsd-ads"
+  ],
+  "shared-data.md": [
+    "ylsd",
+    "ylsd-plan",
+    "ylsd-target",
+    "ylsd-check",
+    "ylsd-prompt",
+    "ylsd-write",
+    "ylsd-similar",
+    "ylsd-site",
+    "ylsd-ads",
+    "ylsd-recap",
+    "ylsd-reply",
+    "ylsd-intel",
+    "ylsd-mailbox",
+    "ylsd-keywords"
+  ],
+  "search-and-judge.md": [
+    "ylsd-plan",
+    "ylsd-similar",
+    "ylsd-keywords"
+  ],
+  "input-fallback.md": [
+    "ylsd",
+    "ylsd-plan",
+    "ylsd-target",
+    "ylsd-check",
+    "ylsd-prompt",
+    "ylsd-write",
+    "ylsd-similar",
+    "ylsd-site",
+    "ylsd-ads",
+    "ylsd-recap",
+    "ylsd-reply",
+    "ylsd-intel",
+    "ylsd-mailbox",
+    "ylsd-keywords"
+  ]
+}

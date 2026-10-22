@@ -1,0 +1,4 @@
+interface:
+  display_name: "ylsd-plan（获客方案）"
+  short_description: "读官网、问几个问题，按八章出一份能照着做的外贸获客方案"
+  default_prompt: "使用 $ylsd-plan，读我的官网并出获客方案。"

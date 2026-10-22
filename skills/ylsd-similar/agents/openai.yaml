@@ -1,0 +1,4 @@
+interface:
+  display_name: "ylsd-similar（找相似买家）"
+  short_description: "给一家同行或客户的官网，读出它是谁，给 3 家像它的样例让你确认方向，再给搜索串"
+  default_prompt: "使用 $ylsd-similar，按我给的这家官网，给我几家像它的样例和搜索串。"
