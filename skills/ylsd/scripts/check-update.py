@@ -16,7 +16,7 @@ except Exception:
     pass
 
 URLS = [
-    "https://raw.githubusercontent.com/<用户名>/ylsd-skill/main/UPDATE.json",
+    "https://raw.githubusercontent.com/freeman2026usa-tech/ylsd-skill/main/UPDATE.json",
     "https://gitee.com/<用户名>/ylsd-skill/raw/main/UPDATE.json",
 ]
 CACHE = Path.home() / ".ylsd" / "update_check_at"

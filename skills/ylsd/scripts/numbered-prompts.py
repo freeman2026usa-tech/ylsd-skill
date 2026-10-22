@@ -13,7 +13,7 @@ for _stream in (sys.stdout, sys.stderr):
         pass
 
 BASE_URLS = [
-    "https://raw.githubusercontent.com/<用户名>/ylsd-skill/main/skills/ylsd/numbered-prompts",
+    "https://raw.githubusercontent.com/freeman2026usa-tech/ylsd-skill/main/skills/ylsd/numbered-prompts",
     "https://gitee.com/<用户名>/ylsd-skill/raw/main/skills/ylsd/numbered-prompts",
 ]
 ROOT = Path(__file__).resolve().parents[1] / "numbered-prompts"
